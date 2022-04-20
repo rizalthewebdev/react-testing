@@ -1,0 +1,56 @@
+main {
+    width: 100vw; 
+    min-height: 100vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    padding: 5px 10px;
+}
+
+form button {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+form button:disabled {
+    color: white;
+    cursor: default;
+}
+
+form span {
+    color: red;
+    margin: auto;
+}
+
+.user {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+img{
+    display: block;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    inset: 0;
+}
